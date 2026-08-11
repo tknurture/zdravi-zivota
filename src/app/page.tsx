@@ -41,8 +41,7 @@ export default function Home() {
           />
           <RevealBlock delay={0.25}>
             <p className="hero-sub">
-              Věříme, že skutečné zdraví vyrůstá z rovnováhy těla, mysli,
-              životní energie a každodenních návyků.
+              Věříme, že skutečné zdraví vyrůstá z rovnováhy těla, mysli, životní energie a každodenních návyků.
             </p>
             <div className="hero-cta-row">
               <MagneticButton href="#kontakt" className="hero-btn">
@@ -62,9 +61,9 @@ export default function Home() {
         <div className="wrap wrap-narrow glass glass-tight">
           <RevealBlock>
             <p className="section-sub intro-bridge-text">
-              Jsme Jana Jaroš a Přemysl Jirák. Spojuje nás společná
+              Jsme Jana Jaroš a Přemysl Jirák. Spojuje nás společná
               filozofie — vnímáme člověka jako propojený celek, ve kterém se
-              vzájemně ovlivňují tělo, mysl, životní energie i každodenní
+              vzájemně ovlivňují tělo, mysl, životní energie i každodenní
               životní styl.
             </p>
           </RevealBlock>
@@ -80,7 +79,7 @@ export default function Home() {
                 <div className="sec-head">
                   <span className="sec-index">01</span>
                   <span className="kicker">
-                    Energetická a mentální rovnováha
+                    Energetická a mentální rovnováha
                   </span>
                 </div>
                 <h2>Jana Jaroš</h2>
@@ -88,12 +87,12 @@ export default function Home() {
                 <div className="profile-centered">
                   <p>
                     Stres. Emoce. Životní zkušenosti. Všechno to ovlivňuje
-                    vaši energii i psychickou pohodu — často, aniž si to
+                    vaši energii i psychickou pohodu — často, aniž si to
                     uvědomujete.
                   </p>
                   <p>
                     Při setkání citlivě vnímám vaše energetické pole. Každé
-                    setkání je jedinečné — vychází z toho, s čím právě
+                    setkání je jedinečné — vychází z toho, s čím právě
                     přicházíte.
                   </p>
                   <p>
@@ -101,8 +100,8 @@ export default function Home() {
                     znovu navázat hlubší kontakt sami se sebou.
                   </p>
                   <p className="profile-em">
-                    „Věřím, že každý člověk v sobě nese schopnost nacházet
-                    vlastní cestu k harmonii.“
+                    „Věřím, že každý člověk v sobě nese schopnost nacházet
+                    vlastní cestu k harmonii.“
                   </p>
                 </div>
               </div>
@@ -118,22 +117,21 @@ export default function Home() {
                 <Portrait src="/premysl.jpg" alt="Přemysl Jirák" />
                 <div className="profile-centered">
                   <p>
-                    Výživa, životní styl a zdraví spolu úzce souvisí.
-                    Správná péče o tělo umí nastartovat jeho přirozenou
+                    Výživa, životní styl a zdraví spolu úzce souvisí.
+                    Správná péče o tělo umí nastartovat jeho přirozenou
                     regeneraci.
                   </p>
                   <p>
-                    Pracuji s přírodou — především s léčivými houbami a
-                    bylinami z našeho regionu.
+                    Pracuji s přírodou — především s léčivými houbami a bylinami z našeho regionu.
                   </p>
                   <p>
-                    Společně hledáme praktické kroky k lepšímu porozumění
-                    vašemu tělu a dlouhodobé vitalitě.
+                    Společně hledáme praktické kroky k lepšímu porozumění
+                    vašemu tělu a dlouhodobé vitalitě.
                   </p>
                   <p className="profile-em">
-                    „Každý člověk je jedinečný, a proto ke každému
-                    přistupuji individuálně s respektem k jeho potřebám,
-                    možnostem i aktuální životní situaci.“
+                    „Každý člověk je jedinečný, a proto ke každému
+                    přistupuji individuálně s respektem k jeho potřebám,
+                    možnostem i aktuální životní situaci.“
                   </p>
                 </div>
               </div>
@@ -141,9 +139,9 @@ export default function Home() {
 
             <div className="people-pair-outro section-full">
               <p className="section-sub">
-                Přestože každý z nás pracuje jiným způsobem, spojuje nás
+                Přestože každý z nás pracuje jiným způsobem, spojuje nás
                 společný cíl — být průvodci na cestě lidí ke zdraví,
-                rovnováze a spokojenému životu.
+                rovnováze a spokojenému životu.
               </p>
             </div>
           </div>
@@ -156,8 +154,8 @@ export default function Home() {
           <div className="disclaimer-text">
             <p>
               Nejsme náhrada lékařů, psychologů ani zdravotnických
-              zařízení. Naši práci vnímáme jako doplněk v oblasti
-              životního stylu, výživy, práce s energií a psychické pohody.
+              zařízení. Naši práci vnímáme jako doplněk v oblasti
+              životního stylu, výživy, práce s energií a psychické pohody.
             </p>
             <p>
               Konzultace nenahrazují lékařskou diagnostiku ani léčbu. Při{" "}
@@ -182,11 +180,10 @@ export default function Home() {
       {/* KONTAKT */}
       <section id="kontakt" style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap glass cta-inner">
-          <div className="kicker">Objednání a kontakt</div>
+          <div className="kicker">Objednání a kontakt</div>
           <h2>Budeme rádi, když se ozvete.</h2>
           <p className="section-sub">
-            Termín setkání domlouváme individuálně podle vašich možností a
-            aktuální kapacity.
+            Termín setkání domlouváme individuálně podle vašich možností a aktuální kapacity.
           </p>
 
           <div className="contact-grid">
@@ -195,7 +192,7 @@ export default function Home() {
                 <span>J</span>
               </div>
               <h3>Jana Jaroš</h3>
-              <div className="role">Energetická a mentální rovnováha</div>
+              <div className="role">Energetická a mentální rovnováha</div>
               <div className="contact-meta">
                 <div>
                   <span className="contact-meta-label">Konzultace</span>
@@ -211,7 +208,7 @@ export default function Home() {
                 {JANA_PHONE} →
               </MagneticButton>
               <div className="contact-note">
-                Upřednostňuje osobní setkání. Po domluvě možné i na dálku.
+                Upřednostňuje osobní setkání. Po domluvě možné i na dálku.
               </div>
             </div>
 
@@ -236,7 +233,7 @@ export default function Home() {
                 {PREMYSL_PHONE} →
               </MagneticButton>
               <div className="contact-note">
-                Konzultace zaměřené na výživu, životní styl a přirozenou
+                Konzultace zaměřené na výživu, životní styl a přirozenou
                 podporu zdraví.
               </div>
             </div>
@@ -246,7 +243,7 @@ export default function Home() {
       </ScrollBolt>
 
       <footer>
-        Těšíme se na společné setkání — Jana Jaroš a Přemysl Jirák
+        Těšíme se na společné setkání — Jana Jaroš a Přemysl Jirák
         <br />
         © 2026 Zdraví života. Všechna práva vyhrazena.
       </footer>
