@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Cursor from "@/components/Cursor";
-import ScrollProgress from "@/components/ScrollProgress";
 import ScrollBolt from "@/components/ScrollBolt";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
 import MagneticButton from "@/components/MagneticButton";
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <>
       <Cursor />
-      <ScrollProgress />
 
       <div className="topbar">
         <div className="topbar-inner">
@@ -24,7 +22,7 @@ export default function Home() {
             Zdraví života
           </div>
           <a href="#kontakt" className="brand-phone" data-cursor="hover">
-            Objednat se →
+            Domluvit konzultaci →
           </a>
         </div>
       </div>

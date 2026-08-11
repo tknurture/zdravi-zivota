@@ -182,17 +182,6 @@ body.cursor-enabled button {
   z-index: 1000;
 }
 
-/* ---------- scroll progress ---------- */
-.scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--accent);
-  transform-origin: 0% 50%;
-  z-index: 60;
-}
 
 /* ---------- scroll bolt: a spine down the center, connecting window to
    window — hidden behind each panel's own background, visible only in
@@ -206,11 +195,6 @@ body.cursor-enabled button {
   width: 2px;
   z-index: 0;
   pointer-events: none;
-}
-@media (max-width: 640px) {
-  .scroll-bolt-rail {
-    display: none;
-  }
 }
 .scroll-bolt-line {
   position: absolute;
@@ -364,6 +348,17 @@ hr.div {
   max-width: 640px;
   margin: 0 auto;
 }
+@media (max-width: 900px) {
+  /* On desktop the two-column band ending is itself the visual break
+     before this line. Once the columns stack into one on mobile, that
+     cue disappears and the line reads as a continuation of Přemysl's
+     text — give it its own divider so it still reads as a separate,
+     shared closing statement. */
+  .people-pair-outro {
+    border-top: 1px solid var(--line);
+    padding-top: 40px;
+  }
+}
 
 /* Jana and Přemysl side by side, each centered within their own column,
    separated by a thin vertical rule. */
@@ -511,6 +506,7 @@ hr.div {
   font-size: 17px;
   letter-spacing: 0.01em;
   color: var(--ink);
+  white-space: nowrap;
 }
 .brand-phone {
   font-family: var(--font-ui);
@@ -521,7 +517,27 @@ hr.div {
   padding: 9px 18px;
   border: 1px solid var(--ink);
   border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: background 0.4s var(--ease-gentle), color 0.4s var(--ease-gentle);
+}
+@media (max-width: 400px) {
+  .topbar-inner {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+  .brand {
+    font-size: 14px;
+    gap: 6px;
+  }
+  .brand-phone {
+    font-size: 12px;
+    padding: 11px 14px;
+  }
+  .brand svg {
+    width: 19px;
+    height: 19px;
+  }
 }
 .brand-phone:hover {
   background: var(--ink);
