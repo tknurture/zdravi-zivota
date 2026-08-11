@@ -405,6 +405,19 @@ hr.div {
   width: 220px;
   margin: 0 auto 32px;
 }
+/* Jana has no photo — this empty spacer matches the portrait's own
+   height (220px wide at a 3:2 ratio, plus its bottom margin) so her
+   bio text still starts at the same height as Přemysl's. */
+.people-profile-spacer {
+  height: 179px;
+}
+@media (max-width: 900px) {
+  /* profiles stack on narrow screens, so lining the text up horizontally
+     no longer applies — the gap would just be dead space */
+  .people-profile-spacer {
+    display: none;
+  }
+}
 .profile-centered {
   max-width: 620px;
   margin: 0 auto;

@@ -3,7 +3,7 @@ import Cursor from "@/components/Cursor";
 import ScrollBolt from "@/components/ScrollBolt";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
 import MagneticButton from "@/components/MagneticButton";
-import { Logomark, Portrait, Monogram } from "@/components/graphics";
+import { Logomark, Portrait } from "@/components/graphics";
 
 const JANA_PHONE = "+420 775 131 787";
 const JANA_HREF = "tel:+420775131787";
@@ -77,13 +77,12 @@ export default function Home() {
             <div className="people-pair-columns section-full">
               <div className="people-profile">
                 <div className="sec-head">
-                  <span className="sec-index">01</span>
                   <span className="kicker">
                     Energetická a mentální rovnováha
                   </span>
                 </div>
                 <h2>Jana Jaroš</h2>
-                <Monogram letter="J" />
+                <div className="people-profile-spacer" aria-hidden="true" />
                 <div className="profile-centered">
                   <p>
                     Stres. Emoce. Životní zkušenosti. Všechno to ovlivňuje
@@ -108,7 +107,6 @@ export default function Home() {
 
               <div className="people-profile">
                 <div className="sec-head">
-                  <span className="sec-index">02</span>
                   <span className="kicker">
                     Specializované výživové poradenství
                   </span>
