@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Cursor from "@/components/Cursor";
 import ScrollBolt from "@/components/ScrollBolt";
-import AuraField from "@/components/AuraField";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
 import MagneticButton from "@/components/MagneticButton";
 import { Logomark, Portrait } from "@/components/graphics";
@@ -28,9 +27,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* HERO — kept exactly as before; the redesign starts below it */}
+      {/* HERO — text/buttons kept exactly as before; the background is the
+          same site-wide cloud field now, no separate local instance */}
       <section className="hero">
-        <AuraField sparkle={false} />
         <div className="wrap">
           <RevealBlock>
             <div className="hero-eyebrow">Energie · Zdraví · Výživa</div>
