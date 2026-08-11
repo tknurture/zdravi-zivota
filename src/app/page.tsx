@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Cursor from "@/components/Cursor";
 import ScrollBolt from "@/components/ScrollBolt";
+import AuraField from "@/components/AuraField";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
 import MagneticButton from "@/components/MagneticButton";
 import { Logomark, Portrait } from "@/components/graphics";
@@ -27,8 +28,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* HERO */}
+      {/* HERO — kept exactly as before; the redesign starts below it */}
       <section className="hero">
+        <AuraField sparkle={false} />
         <div className="wrap">
           <RevealBlock>
             <div className="hero-eyebrow">Energie · Zdraví · Výživa</div>
