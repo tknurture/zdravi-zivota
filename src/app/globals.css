@@ -258,11 +258,51 @@ body.cursor-enabled button {
 }
 
 .intro-bridge {
-  padding: 10px 0 70px;
+  padding: 70px 0;
   text-align: center;
 }
 .intro-bridge-text {
   margin: 0 auto;
+}
+
+/* ---------- philosophy / mission blocks (O nás, Naše poslání) ---------- */
+.section-kicker {
+  display: block;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.philosophy-lead {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(19px, 2.4vw, 24px);
+  line-height: 1.45;
+  color: var(--ink);
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+.philosophy-text {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+.philosophy-text p {
+  color: var(--ink-soft);
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0 0 20px;
+}
+.philosophy-text p:last-child {
+  margin-bottom: 0;
+}
+.mission-close {
+  margin-top: 38px;
+  padding-top: 34px;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-display);
+  font-size: clamp(21px, 2.8vw, 28px);
+  line-height: 1.4;
+  color: var(--ink);
+  text-align: center;
 }
 
 section {
@@ -391,6 +431,13 @@ hr.div {
 }
 .profile-centered p:last-child {
   margin-bottom: 0;
+}
+/* Lede paragraph — a touch darker/heavier than the body copy that
+   follows, so a longer bio still has a clear entry point instead of
+   reading as one undifferentiated block. */
+.profile-centered p.profile-lead {
+  color: var(--ink);
+  font-weight: 500;
 }
 
 /* Tag chips — a scannable, textural stand-in for what used to be three
@@ -811,6 +858,15 @@ h1.hero-title {
 }
 @media (max-width: 900px) {
   .disclaimer-text { flex-direction: column; gap: 12px; }
+}
+.disclaimer-note {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  max-width: 620px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ---------- contact cards ---------- */
