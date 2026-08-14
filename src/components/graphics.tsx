@@ -159,6 +159,21 @@ export function QuoteMark() {
   );
 }
 
+/** Map pin — used to lead the address/location block. */
+export function IconPin() {
+  return (
+    <svg width="26" height="26" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+      <path
+        d="M15 3c-5 0-9 3.9-9 9.3C6 19 15 27 15 27s9-8 9-14.7C24 6.9 20 3 15 3Z"
+        stroke="var(--accent)"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
+      />
+      <circle cx="15" cy="12.3" r="3.4" stroke="var(--accent)" strokeWidth="1.4" />
+    </svg>
+  );
+}
+
 /** Typographic monogram card standing in for a portrait photo. */
 export function Monogram({ letter }: { letter: string }) {
   return (

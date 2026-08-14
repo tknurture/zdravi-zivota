@@ -3,12 +3,14 @@ import Cursor from "@/components/Cursor";
 import Spine from "@/components/Spine";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
 import MagneticButton from "@/components/MagneticButton";
-import { Logomark, Portrait, Monogram, QuoteMark } from "@/components/graphics";
+import { Logomark, Portrait, Monogram, QuoteMark, IconPin } from "@/components/graphics";
 
 const JANA_PHONE = "+420 775 131 787";
 const JANA_HREF = "tel:+420775131787";
 const PREMYSL_PHONE = "+420 605 246 080";
 const PREMYSL_HREF = "tel:+420605246080";
+const MAPS_HREF =
+  "https://www.google.com/maps/search/?api=1&query=T%C5%99%C3%ADda%20Tom%C3%A1%C5%A1e%20Bati%2087%2C%20Zl%C3%ADn";
 
 export default function Home() {
   return (
@@ -252,6 +254,25 @@ export default function Home() {
                 podporu zdraví.
               </div>
             </div>
+          </div>
+
+          <div className="location-block">
+            <div className="location-icon">
+              <IconPin />
+            </div>
+            <div className="location-address">Třída Tomáše Bati 87, Zlín</div>
+            <div className="location-detail">
+              Vchod z boku budovy · Výtah do 5. patra
+            </div>
+            <a
+              href={MAPS_HREF}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-link location-link"
+              data-cursor="hover"
+            >
+              Otevřít v mapách →
+            </a>
           </div>
         </div>
       </section>
