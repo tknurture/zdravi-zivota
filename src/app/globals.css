@@ -1,29 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f8f0e3;
-  --paper-deep: #efdfc5;
-  --ink: #4c4b56;
-  --ink-deep: #3c3b45;
-  --ink-soft: #7d7c87;
-  --ink-faint: #aeaab2;
-  --accent: #4f9791;
-  --accent-soft: #a9d1cb;
-  --line: #e7d7bd;
+  --paper: #faf1de;
+  --paper-deep: #f0dcb8;
+  --ink: #2c2a35;
+  --ink-deep: #1c1b22;
+  --ink-soft: #635f72;
+  --ink-faint: #9791a0;
+  --accent: #0e9488;
+  --accent-soft: #5cd1c0;
+  --line: #e8d2a8;
   --white: #fffdf9;
 
   /* Warm, confident call-to-action color — separate from --accent so
      labels/links (teal) and buttons (coral) can read as two distinct
-     but related voices, the way the reference material pairs them. */
-  --cta: #de8a5f;
-  --cta-deep: #c97145;
+     but related voices, the way the reference material pairs them.
+     Pushed more saturated/vivid per client request. */
+  --cta: #f2622e;
+  --cta-deep: #d1481a;
 
   /* Background wash tones — the hero's original aura colors, now used
      for the drifting blobs site-wide so the whole page shares one
-     continuous background instead of the hero looking different. */
-  --cloud-a: #7fb349;
-  --cloud-b: #d99a3e;
-  --cloud-c: #b3ae8a;
+     continuous background instead of the hero looking different.
+     Brighter/more saturated, same hues. */
+  --cloud-a: #58b833;
+  --cloud-b: #f0932b;
+  --cloud-c: #d1a63a;
   --cloud-d: #ece4d3;
 
   --font-display: "Newsreader", ui-serif, Georgia, serif;
@@ -215,8 +217,8 @@ body.cursor-enabled button {
   position: absolute;
   inset: 0;
   transform-origin: top;
-  background: linear-gradient(to bottom, rgba(79, 151, 145, 0.1), var(--accent));
-  box-shadow: 0 0 10px 2px rgba(79, 151, 145, 0.5);
+  background: linear-gradient(to bottom, rgba(14, 148, 136, 0.1), var(--accent));
+  box-shadow: 0 0 10px 2px rgba(14, 148, 136, 0.5);
 }
 .spine-dot {
   position: absolute;
@@ -227,8 +229,8 @@ body.cursor-enabled button {
   border-radius: 50%;
   background: var(--accent);
   box-shadow:
-    0 0 10px 2px rgba(79, 151, 145, 0.6),
-    0 0 26px 7px rgba(79, 151, 145, 0.25);
+    0 0 10px 2px rgba(14, 148, 136, 0.6),
+    0 0 26px 7px rgba(14, 148, 136, 0.25);
 }
 .spine-dot-top {
   top: -4.5px;
@@ -616,16 +618,19 @@ h2 {
   color: var(--ink);
 
   /* Background is shared with the rest of the site now (the single
-     global AuraField shows straight through). Only the hero's own
-     text/button colors stay pinned to their pre-redesign values. */
+     global AuraField shows straight through). The hero's own text
+     colors stay a touch warmer/darker than the rest of the page, but now
+     share the same vivid accent — previously a muted olive close enough
+     to the paper color that the emphasized headline word nearly
+     disappeared into the background. */
   --paper: #f6f2ea;
   --paper-deep: #ece4d3;
-  --ink: #423d2f;
-  --ink-soft: #74705f;
-  --ink-faint: #a39d89;
-  --accent: #7c7a51;
-  --accent-soft: #b3ae8a;
-  --line: #e1d7c2;
+  --ink: #2b2415;
+  --ink-soft: #5c5236;
+  --ink-faint: #948a6c;
+  --accent: #0e9488;
+  --accent-soft: #5cd1c0;
+  --line: #e6d3ab;
   --white: #fffdf8;
 }
 .hero-eyebrow {
