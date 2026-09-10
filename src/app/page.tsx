@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Cursor from "@/components/Cursor";
 import Spine from "@/components/Spine";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
@@ -61,10 +60,10 @@ export default function Home() {
           copy; previously just the one bridging sentence now used in
           "Kdo jsme" below. */}
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
-        <div className="wrap wrap-narrow glass glass-tight">
+        <div className="wrap glass glass-tight">
           <RevealBlock>
             <span className="kicker section-kicker">O nás</span>
-            <p className="philosophy-lead">
+            <p className="philosophy-lead philosophy-lead-wide">
               Každý člověk je jedinečný, stejně jako jeho cesta
               k rovnováze a zdraví.
             </p>
@@ -296,11 +295,13 @@ export default function Home() {
 
           <div className="contact-grid">
             <div className="contact-card">
-              <div className="contact-avatar">
-                <span>J</span>
+              <div className="contact-card-media">
+                <Monogram letter="J" />
               </div>
               <h3>Jana Jaroš</h3>
-              <div className="role">Energetická a mentální rovnováha</div>
+              <span className="profile-tag contact-role">
+                Energetická a mentální rovnováha
+              </span>
               <div className="contact-meta">
                 <div>
                   <span className="contact-meta-label">Konzultace</span>
@@ -316,16 +317,18 @@ export default function Home() {
                 {JANA_PHONE} →
               </MagneticButton>
               <div className="contact-note">
-                Upřednostňuje osobní setkání. Po domluvě možné i na dálku.
+                Upřednostňuje osobní setkání. Po domluvě možné i na dálku.
               </div>
             </div>
 
             <div className="contact-card">
-              <div className="contact-avatar">
-                <Image src="/premysl.jpg" alt="" width={52} height={52} />
+              <div className="contact-card-media">
+                <Portrait src="/premysl.jpg" alt="Přemysl Jirák" />
               </div>
               <h3>Přemysl Jirák</h3>
-              <div className="role">Specializované výživové poradenství</div>
+              <span className="profile-tag contact-role">
+                Specializované výživové poradenství
+              </span>
               <div className="contact-meta">
                 <div>
                   <span className="contact-meta-label">Konzultace</span>
@@ -341,7 +344,7 @@ export default function Home() {
                 {PREMYSL_PHONE} →
               </MagneticButton>
               <div className="contact-note">
-                Konzultace zaměřené na výživu, životní styl a přirozenou
+                Konzultace zaměřené na výživu, životní styl a přirozenou
                 podporu zdraví.
               </div>
             </div>
