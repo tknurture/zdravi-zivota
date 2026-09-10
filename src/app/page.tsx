@@ -65,30 +65,20 @@ export default function Home() {
           <RevealBlock>
             <span className="kicker section-kicker">O nás</span>
             <p className="philosophy-lead">
-              Každý člověk je jedinečný. Stejně jedinečná je i jeho
-              cesta k rovnováze a zdraví.
+              Každý člověk je jedinečný, stejně jako jeho cesta
+              k rovnováze a zdraví.
             </p>
             <div className="philosophy-text">
               <p>
-                Každý člověk má svůj jedinečný příběh, vlastní zkušenosti
-                i svůj osobní potenciál. Někdy se však vlivem stresu,
-                životních změn, dlouhodobého napětí nebo zdravotních obtíží
-                dostáváme do období, kdy ztrácíme kontakt sami se sebou,
-                se svou energií a přirozenou životní rovnováhou.
+                Někdy se však vlivem stresu, životních změn, dlouhodobého
+                napětí nebo zdravotních obtíží dostáváme do období, kdy
+                ztrácíme kontakt sami se sebou a přirozenou životní
+                rovnováhou.
               </p>
               <p>
                 Ve Zdraví života pomáháme lidem lépe porozumět
                 souvislostem mezi energií, psychickou pohodou, životním
-                stylem a výživou. Nechceme rozhodovat za druhé ani
-                přebírat odpovědnost za jejich život. Naším přáním je být
-                průvodci na jejich vlastní cestě — předávat zkušenosti,
-                ukazovat možné souvislosti a podporovat každého člověka
-                při objevování jeho vlastních zdrojů síly, zdraví
-                a vitality.
-              </p>
-              <p>
-                Věříme, že největší potenciál ke zdraví, rovnováze
-                a spokojenému životu se nachází uvnitř každého z nás.
+                stylem a výživou.
               </p>
             </div>
           </RevealBlock>
@@ -245,72 +235,35 @@ export default function Home() {
 
       <Spine height={90} />
 
-      {/* NAŠE POSLÁNÍ — new section, not previously on the page */}
+      {/* NAŠE POSLÁNÍ — merged with the former "Jak vnímáme svou roli"
+          disclaimer section per client request, single shortened text */}
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap wrap-narrow glass glass-tight">
           <RevealBlock>
             <span className="kicker section-kicker">Naše poslání</span>
             <div className="philosophy-text">
               <p>
-                Naším cílem není rozhodovat za druhé ani přebírat
-                odpovědnost za jejich život.
+                Věříme, že každý z nás v sobě má vlastní zdroje síly
+                a potenciál pro zdraví, rovnováhu a spokojený život.
               </p>
               <p>
-                Naším cílem je předávat informace, sdílet zkušenosti
-                a pomáhat lidem nacházet souvislosti, které mohou vést
-                k hlubšímu porozumění sobě samým, svému tělu i vlastním
-                potřebám.
+                Nechceme rozhodovat za vás ani přebírat odpovědnost
+                za vaše zdraví. Naším přáním je být průvodci na cestě
+                k lepšímu porozumění sobě samým.
               </p>
               <p>
-                Věříme, že skutečná změna začíná ve chvíli, kdy
-                člověk převezme odpovědnost za svůj život, uvěří
-                ve své schopnosti a rozhodne se aktivně podílet
-                na své cestě ke zdraví a spokojenosti.
+                Sdílíme své zkušenosti, ukazujeme možné souvislosti
+                a pomáháme objevovat vlastní zdroje síly, zdraví
+                a vitality.
               </p>
               <p>
-                My můžeme nabídnout podporu, zkušenosti a nový pohled.
-                Můžeme ukázat možné souvislosti a být průvodci
-                na určité části cesty. Skutečná síla ke změně však
-                vždy vychází z člověka samotného.
+                Naše konzultace nenahrazují lékařskou diagnostiku,
+                léčbu ani odbornou zdravotní péči. V případě
+                zdravotních obtíží doporučujeme vždy konzultaci
+                s lékařem.
               </p>
             </div>
-            <p className="mission-close">
-              Protože zdraví není jen stav těla.
-              <br />
-              Zdraví je <span className="accent-em">způsob života</span>.
-            </p>
           </RevealBlock>
-        </div>
-      </section>
-
-      <Spine height={90} />
-
-      {/* JAK VNÍMÁME SVOU ROLI — expanded disclaimer, still quiet/small-print */}
-      <section style={{ paddingTop: 70, paddingBottom: 70 }}>
-        <div className="wrap glass glass-tight disclaimer">
-          <span className="kicker section-kicker">Jak vnímáme svou roli</span>
-          <div className="disclaimer-text">
-            <p>
-              Nevystupujeme jako náhrada lékařů, psychologů ani
-              zdravotnických zařízení. Respektujeme význam odborné
-              zdravotní péče a naši práci vnímáme jako možný doplněk
-              v oblasti životního stylu, výživy, práce s energií
-              a psychické pohody.
-            </p>
-            <p>
-              Naše individuální konzultace nenahrazují lékařskou
-              diagnostiku, léčbu ani odbornou zdravotní péči.
-              V případě zdravotních obtíží doporučujeme vždy
-              spolupracovat s ošetřujícím lékařem a řídit se jeho
-              doporučeními.
-            </p>
-          </div>
-          <p className="section-sub disclaimer-note">
-            Věříme, že propojení odborné zdravotní péče, kvalitního
-            životního stylu, práce na sobě a porozumění vlastním
-            potřebám může člověku pomoci na cestě k větší rovnováze,
-            vitalitě a spokojenému životu.
-          </p>
         </div>
       </section>
 
@@ -336,7 +289,7 @@ export default function Home() {
       <section id="kontakt" style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap glass cta-inner">
           <div className="kicker">Objednání a kontakt</div>
-          <h2>Budeme rádi, když se ozvete.</h2>
+          <h2>Chcete lépe porozumět tomu, co vám vaše tělo říká?</h2>
           <p className="section-sub">
             Termín setkání domlouváme individuálně podle vašich možností a aktuální kapacity.
           </p>
