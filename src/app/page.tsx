@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Cursor from "@/components/Cursor";
 import Spine from "@/components/Spine";
 import RevealWords, { RevealBlock } from "@/components/RevealWords";
@@ -295,13 +296,11 @@ export default function Home() {
 
           <div className="contact-grid">
             <div className="contact-card">
-              <div className="contact-card-media">
-                <Monogram letter="J" />
+              <div className="contact-avatar">
+                <span>J</span>
               </div>
               <h3>Jana Jaroš</h3>
-              <span className="profile-tag contact-role">
-                Energetická a mentální rovnováha
-              </span>
+              <div className="role">Energetická a mentální rovnováha</div>
               <div className="contact-meta">
                 <div>
                   <span className="contact-meta-label">Konzultace</span>
@@ -322,13 +321,11 @@ export default function Home() {
             </div>
 
             <div className="contact-card">
-              <div className="contact-card-media">
-                <Portrait src="/premysl.jpg" alt="Přemysl Jirák" />
+              <div className="contact-avatar">
+                <Image src="/premysl.jpg" alt="" width={52} height={52} />
               </div>
               <h3>Přemysl Jirák</h3>
-              <span className="profile-tag contact-role">
-                Specializované výživové poradenství
-              </span>
+              <div className="role">Specializované výživové poradenství</div>
               <div className="contact-meta">
                 <div>
                   <span className="contact-meta-label">Konzultace</span>
