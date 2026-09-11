@@ -426,7 +426,11 @@ hr.div {
 }
 .people-profile .monogram,
 .people-profile .portrait {
-  width: 180px;
+  /* Bigger, and in the photos' own portrait proportions (source photos
+     are ~2:3) instead of the generic 3:2 landscape crop — shows the
+     whole photo instead of slicing off the top/bottom. */
+  width: 260px;
+  aspect-ratio: 2 / 3;
   margin: 0 auto 32px;
 }
 .profile-centered {
