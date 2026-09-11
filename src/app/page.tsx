@@ -118,7 +118,7 @@ export default function Home() {
                   </span>
                 </div>
                 <h2>Jana Jaroš</h2>
-                <Monogram letter="J" />
+                <Portrait src="/jana.jpg" alt="Jana Jaroš" />
                 <div className="profile-centered">
                   <p className="profile-lead">
                     Ve své práci podporuji lidi na cestě k větší
@@ -297,7 +297,7 @@ export default function Home() {
           <div className="contact-grid">
             <div className="contact-card">
               <div className="contact-avatar">
-                <span>J</span>
+                <Image src="/jana.jpg" alt="" width={52} height={52} />
               </div>
               <h3>Jana Jaroš</h3>
               <div className="role">Energetická a mentální rovnováha</div>
