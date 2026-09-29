@@ -18,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Zdraví života — Jana Jaroš & Přemysl Jirák",
+  title: "Zdraví života — Jana Jaroš",
   description:
-    "Energie, zdraví a výživa. Individuální konzultace zaměřené na energetickou a mentální rovnováhu a specializované výživové poradenství.",
+    "Energie a zdraví. Individuální konzultace zaměřené na energetickou a mentální rovnováhu.",
 };
 
 export default function RootLayout({

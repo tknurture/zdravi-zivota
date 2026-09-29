@@ -1087,6 +1087,10 @@ h1.hero-title {
 .cta-inner h2 { margin: 0 auto 16px; }
 .cta-inner .section-sub { max-width: 420px; margin-left: auto; margin-right: auto; }
 .contact-grid { max-width: 640px; margin-left: auto; margin-right: auto; }
+.contact-grid-solo {
+  grid-template-columns: 1fr;
+  max-width: 380px;
+}
 
 /* ---------- location ---------- */
 .location-block {

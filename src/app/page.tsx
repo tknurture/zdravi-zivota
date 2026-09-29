@@ -7,8 +7,6 @@ import { Logomark, Portrait, Monogram, QuoteMark, IconPin } from "@/components/g
 
 const JANA_PHONE = "+420 775 131 787";
 const JANA_HREF = "tel:+420775131787";
-const PREMYSL_PHONE = "+420 605 246 080";
-const PREMYSL_HREF = "tel:+420605246080";
 const MAPS_HREF =
   "https://www.google.com/maps/search/?api=1&query=T%C5%99%C3%ADda%20Tom%C3%A1%C5%A1e%20Bati%2087%2C%20Zl%C3%ADn";
 
@@ -34,7 +32,7 @@ export default function Home() {
       <section className="hero">
         <div className="wrap">
           <RevealBlock>
-            <div className="hero-eyebrow">Energie · Zdraví · Výživa</div>
+            <div className="hero-eyebrow">Energie · Zdraví</div>
           </RevealBlock>
           <RevealWords
             as="h1"
@@ -44,7 +42,7 @@ export default function Home() {
           />
           <RevealBlock delay={0.25}>
             <p className="hero-sub">
-              Věříme, že skutečné zdraví vyrůstá z rovnováhy těla, mysli, životní energie a každodenních návyků.
+              Věřím, že skutečné zdraví vyrůstá z rovnováhy těla, mysli, životní energie a každodenních návyků.
             </p>
             <div className="hero-cta-row">
               <MagneticButton href="#kontakt" className="hero-btn">
@@ -63,7 +61,7 @@ export default function Home() {
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap glass glass-tight">
           <RevealBlock>
-            <span className="kicker section-kicker">O nás</span>
+            <span className="kicker section-kicker">O mně</span>
             <p className="philosophy-lead philosophy-lead-wide">
               Každý člověk je jedinečný, stejně jako jeho cesta
               k rovnováze a zdraví.
@@ -76,158 +74,70 @@ export default function Home() {
                 rovnováhou.
               </p>
               <p>
-                Ve Zdraví života pomáháme lidem lépe porozumět
-                souvislostem mezi energií, psychickou pohodou, životním
-                stylem a výživou.
+                Ve Zdraví života pomáhám lidem lépe porozumět
+                souvislostem mezi energií a psychickou pohodou.
               </p>
             </div>
-          </RevealBlock>
-        </div>
-      </section>
-
-      <Spine height={110} />
-
-      {/* KDO JSME — intro line before the two profiles */}
-      <section className="intro-bridge">
-        <div className="wrap wrap-narrow glass glass-tight">
-          <RevealBlock>
-            <span className="kicker section-kicker">Kdo jsme</span>
-            <p className="section-sub intro-bridge-text">
-              Jsme Jana Jaroš a Přemysl Jirák. Spojuje nás společná
-              filozofie — vnímáme člověka jako propojený celek, ve kterém
-              se vzájemně ovlivňují tělo, mysl, životní energie
-              i každodenní životní styl. Každý z nás přináší
-              do společné práce svůj vlastní přístup, zkušenosti
-              i pohled.
-            </p>
           </RevealBlock>
         </div>
       </section>
 
       <Spine height={90} />
 
-      {/* 01/02 — JANA & PŘEMYSL, shared panel so they read close together */}
+      {/* JANA — solo profile */}
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap glass">
-          <div className="section-grid people-pair">
-            <div className="people-pair-columns section-full">
-              <div className="people-profile">
-                <div className="sec-head">
-                  <span className="kicker">
-                    Energetická a mentální rovnováha
-                  </span>
-                </div>
-                <h2>Jana Jaroš</h2>
-                <Portrait src="/jana.jpg" alt="Jana Jaroš" />
-                <div className="profile-centered">
-                  <p className="profile-lead">
-                    Ve své práci podporuji lidi na cestě k větší
-                    energetické a mentální rovnováze. Pomáhám jim lépe
-                    porozumět tomu, jak stres, emoce, životní zkušenosti
-                    a vnitřní nastavení mohou ovlivňovat jejich energii,
-                    psychickou pohodu i celkovou kvalitu života.
-                  </p>
-                  <p>
-                    Při setkání citlivě vnímám energetické pole člověka.
-                    To mi umožňuje zaměřit pozornost na oblasti, které
-                    mohou souviset s energetickou nerovnováhou, oslabením
-                    životní síly nebo ztrátou vnitřní harmonie.
-                  </p>
-                  <p>
-                    Každé setkání je jedinečné a vychází
-                    z aktuálních potřeb člověka, jeho životní situace
-                    a toho, s čím přichází.
-                  </p>
-                  <p>
-                    Mým záměrem je vytvořit bezpečný a laskavý
-                    prostor, ve kterém může člověk znovu navázat hlubší
-                    kontakt sám se sebou, posílit důvěru ve vlastní
-                    intuici a objevit své přirozené zdroje vnitřní síly
-                    a rovnováhy.
-                  </p>
-                  <div className="profile-tags">
-                    <span className="profile-tag">Energie</span>
-                    <span className="profile-tag">Emoce</span>
-                    <span className="profile-tag">Rovnováha</span>
-                  </div>
-                  <div className="profile-quote">
-                    <div className="quote-mark">
-                      <QuoteMark />
-                    </div>
-                    <p className="profile-em">
-                      Věřím, že každý člověk v sobě nese schopnost
-                      nacházet vlastní cestu k harmonii. Někdy jen
-                      potřebuje klidný prostor, podporu a nový pohled,
-                      aby mohl znovu vnímat svou sílu, možnosti a životní
-                      energii.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="people-profile">
-                <div className="sec-head">
-                  <span className="kicker">
-                    Specializované výživové poradenství
-                  </span>
-                </div>
-                <h2>Přemysl Jirák</h2>
-                <Portrait src="/premysl.jpg" alt="Přemysl Jirák" />
-                <div className="profile-centered">
-                  <p className="profile-lead">
-                    Ve své práci pomáhám lidem lépe porozumět
-                    souvislostem mezi výživou, životním stylem
-                    a celkovým zdravím. Věřím, že péče o tělo,
-                    vhodně zvolené stravovací návyky a podpora
-                    přirozených regeneračních schopností organismu mohou
-                    být důležitou součástí cesty k větší vitalitě
-                    a životní rovnováze.
-                  </p>
-                  <p>
-                    Zaměřuji se na výživu v souvislostech
-                    s prevencí civilizačních onemocnění, podporou
-                    organismu a hledáním individuálních možností, které
-                    odpovídají potřebám konkrétního člověka.
-                  </p>
-                  <p>
-                    Pracuji s přírodními produkty a specializuji se
-                    především na léčivé houby a byliny z našeho
-                    regionu. Věřím, že příroda nabízí mnoho cenných
-                    možností, jak citlivě podpořit přirozené procesy
-                    v organismu.
-                  </p>
-                  <p>
-                    Pomáhám lidem hledat souvislosti mezi jejich
-                    stravovacími návyky, stavem střevního mikrobiomu,
-                    životním stylem a celkovou vitalitou. Společně
-                    hledáme praktické kroky, které mohou přispět
-                    k lepšímu porozumění vlastnímu tělu a dlouhodobé
-                    péči o zdraví.
-                  </p>
-                  <div className="profile-tags">
-                    <span className="profile-tag">Výživa</span>
-                    <span className="profile-tag">Byliny</span>
-                    <span className="profile-tag">Vitalita</span>
-                  </div>
-                  <div className="profile-quote">
-                    <div className="quote-mark">
-                      <QuoteMark />
-                    </div>
-                    <p className="profile-em">
-                      Každý člověk je jedinečný, a proto ke každému
-                      přistupuji individuálně s respektem k jeho
-                      potřebám, možnostem i aktuální životní situaci.
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <div className="people-profile">
+            <div className="sec-head">
+              <span className="kicker">
+                Energetická a mentální rovnováha
+              </span>
             </div>
-            <div className="people-pair-outro section-full">
-              <p className="section-sub">
-                Přestože každý z nás pracuje jiným způsobem, spojuje nás
-                společný cíl — být průvodci na cestě lidí ke zdraví,
-                rovnováze a spokojenému životu.
+            <h2>Jana Jaroš</h2>
+            <Portrait src="/jana.jpg" alt="Jana Jaroš" />
+            <div className="profile-centered">
+              <p className="profile-lead">
+                Ve své práci podporuji lidi na cestě k větší
+                energetické a mentální rovnováze. Pomáhám jim lépe
+                porozumět tomu, jak stres, emoce, životní zkušenosti
+                a vnitřní nastavení mohou ovlivňovat jejich energii,
+                psychickou pohodu i celkovou kvalitu života.
               </p>
+              <p>
+                Při setkání citlivě vnímám energetické pole člověka.
+                To mi umožňuje zaměřit pozornost na oblasti, které
+                mohou souviset s energetickou nerovnováhou, oslabením
+                životní síly nebo ztrátou vnitřní harmonie.
+              </p>
+              <p>
+                Každé setkání je jedinečné a vychází
+                z aktuálních potřeb člověka, jeho životní situace
+                a toho, s čím přichází.
+              </p>
+              <p>
+                Mým záměrem je vytvořit bezpečný a laskavý
+                prostor, ve kterém může člověk znovu navázat hlubší
+                kontakt sám se sebou, posílit důvěru ve vlastní
+                intuici a objevit své přirozené zdroje vnitřní síly
+                a rovnováhy.
+              </p>
+              <div className="profile-tags">
+                <span className="profile-tag">Energie</span>
+                <span className="profile-tag">Emoce</span>
+                <span className="profile-tag">Rovnováha</span>
+              </div>
+              <div className="profile-quote">
+                <div className="quote-mark">
+                  <QuoteMark />
+                </div>
+                <p className="profile-em">
+                  Věřím, že každý člověk v sobě nese schopnost
+                  nacházet vlastní cestu k harmonii. Někdy jen
+                  potřebuje klidný prostor, podporu a nový pohled,
+                  aby mohl znovu vnímat svou sílu, možnosti a životní
+                  energii.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -235,31 +145,29 @@ export default function Home() {
 
       <Spine height={90} />
 
-      {/* NAŠE POSLÁNÍ — merged with the former "Jak vnímáme svou roli"
-          disclaimer section per client request, single shortened text */}
+      {/* MOJE POSLÁNÍ */}
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap wrap-narrow glass glass-tight">
           <RevealBlock>
-            <span className="kicker section-kicker">Naše poslání</span>
+            <span className="kicker section-kicker">Moje poslání</span>
             <div className="philosophy-text">
               <p>
-                Věříme, že každý z nás v sobě má vlastní zdroje síly
+                Věřím, že každý z nás v sobě má vlastní zdroje síly
                 a potenciál pro zdraví, rovnováhu a spokojený život.
               </p>
               <p>
-                Nechceme rozhodovat za vás ani přebírat odpovědnost
-                za vaše zdraví. Naším přáním je být průvodci na cestě
+                Nechci rozhodovat za vás ani přebírat odpovědnost
+                za vaše zdraví. Mým přáním je být průvodcem na cestě
                 k lepšímu porozumění sobě samým.
               </p>
               <p>
-                Sdílíme své zkušenosti, ukazujeme možné souvislosti
-                a pomáháme objevovat vlastní zdroje síly, zdraví
-                a vitality.
+                Sdílím své zkušenosti, ukazuji možné souvislosti
+                a pomáhám objevovat vlastní zdroje síly a zdraví.
               </p>
               <p>
-                Naše konzultace nenahrazují lékařskou diagnostiku,
+                Mé konzultace nenahrazují lékařskou diagnostiku,
                 léčbu ani odbornou zdravotní péči. V případě
-                zdravotních obtíží doporučujeme vždy konzultaci
+                zdravotních obtíží doporučuji vždy konzultaci
                 s lékařem.
               </p>
             </div>
@@ -291,10 +199,10 @@ export default function Home() {
           <div className="kicker">Objednání a kontakt</div>
           <h2>Chcete lépe porozumět tomu, co vám vaše tělo říká?</h2>
           <p className="section-sub">
-            Termín setkání domlouváme individuálně podle vašich možností a aktuální kapacity.
+            Termín setkání si domluvíme individuálně podle vašich možností a aktuální kapacity.
           </p>
 
-          <div className="contact-grid">
+          <div className="contact-grid contact-grid-solo">
             <div className="contact-card">
               <div className="contact-avatar">
                 <Image src="/jana.jpg" alt="" width={52} height={52} />
@@ -317,32 +225,6 @@ export default function Home() {
               </MagneticButton>
               <div className="contact-note">
                 Upřednostňuje osobní setkání. Po domluvě možné i na dálku.
-              </div>
-            </div>
-
-            <div className="contact-card">
-              <div className="contact-avatar">
-                <Image src="/premysl.jpg" alt="" width={52} height={52} />
-              </div>
-              <h3>Přemysl Jirák</h3>
-              <div className="role">Specializované výživové poradenství</div>
-              <div className="contact-meta">
-                <div>
-                  <span className="contact-meta-label">Konzultace</span>
-                  <span className="contact-meta-duration">50 minut</span>
-                </div>
-                <div className="contact-meta-price">1 200 Kč</div>
-              </div>
-              <MagneticButton
-                href={PREMYSL_HREF}
-                className="contact-phone"
-                strength={0.12}
-              >
-                {PREMYSL_PHONE} →
-              </MagneticButton>
-              <div className="contact-note">
-                Konzultace zaměřené na výživu, životní styl a přirozenou
-                podporu zdraví.
               </div>
             </div>
           </div>
@@ -369,7 +251,7 @@ export default function Home() {
       </section>
 
       <footer>
-        Těšíme se na společné setkání — Jana Jaroš a Přemysl Jirák
+        Těším se na naše setkání — Jana Jaroš
         <br />
         © 2026 Zdraví života. Všechna práva vyhrazena.
       </footer>
