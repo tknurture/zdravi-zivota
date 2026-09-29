@@ -61,7 +61,6 @@ export default function Home() {
       <section style={{ paddingTop: 70, paddingBottom: 70 }}>
         <div className="wrap glass glass-tight">
           <RevealBlock>
-            <span className="kicker section-kicker">O mně</span>
             <p className="philosophy-lead philosophy-lead-wide">
               Každý člověk je jedinečný, stejně jako jeho cesta
               k rovnováze a zdraví.
