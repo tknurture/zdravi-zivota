@@ -19,6 +19,7 @@ export default function Cursor() {
 
   useEffect(() => {
     const mq = window.matchMedia("(pointer: fine)");
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- záměrně až po hydrataci (pointer: fine)
     setEnabled(mq.matches);
     if (!mq.matches) return;
 
