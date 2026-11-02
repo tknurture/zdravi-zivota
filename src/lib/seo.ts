@@ -6,7 +6,7 @@
 
 import type { Metadata } from "next";
 
-export const SITE_URL = "https://zdravizivota.cz";
+export const SITE_URL = "https://www.zdravizivota.cz";
 export const SITE_NAME = "Zdraví života";
 export const LOCALE = "cs_CZ";
 
